@@ -6,5 +6,12 @@ public class Test {
        System.out.println(listNumber.getElementoSuccessivo());
        System.out.println(listNumber.getElementoSuccessivo());
        System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.getElementoSuccessivo());
+       System.out.println(listNumber.hasAncoraElementi());
     }
 }
