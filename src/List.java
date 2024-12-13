@@ -15,6 +15,15 @@ public class List {
 
     }
 
+    // Metodo per leggere tutti i valori all'interno dell'Array numberList
+
+    public int[] getTuttiElementi(){
+        for (int i = 0; i < numberList.length; i++) {
+            System.out.println(numberList[i]);
+        }
+        return this.numberList;
+    }
+
     // Metodo che ritorna la lunghezza dell'Array
 
     public int getNumberListLenght() {

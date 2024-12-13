@@ -27,18 +27,19 @@ public class Test {
         numberListArrayList.setAddElemento(17);
         System.out.println(numberListArrayList.getElementoSuccessivo());
         System.out.println(numberListArrayList.hasAncoraElementi());
+        numberListArrayList.getTuttiElementi();
 
         // Ciclo per leggere tutti i valori all'interno dell'Array numberListArrayList
 
-        if (numberListArrayList.getIndexArray() != 0) {
-            numberListArrayList.setResetIndexArray();
-            for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
-                System.out.println(numberListArrayList.getElementoSuccessivo());
-            }
-        } else {
-            for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
-                System.out.println(numberListArrayList.getElementoSuccessivo());
-            }
-        }
+        // if (numberListArrayList.getIndexArray() != 0) {
+        //     numberListArrayList.setResetIndexArray();
+        //     for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
+        //         System.out.println(numberListArrayList.getElementoSuccessivo());
+        //     }
+        // } else {
+        //     for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
+        //         System.out.println(numberListArrayList.getElementoSuccessivo());
+        //     }
+        // }
     }
 }
