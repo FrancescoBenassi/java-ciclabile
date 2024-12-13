@@ -35,6 +35,10 @@ public class Test {
             for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
                 System.out.println(numberListArrayList.getElementoSuccessivo());
             }
+        } else {
+            for (int i = 0; i < numberListArrayList.getNumberListLenght(); i++) {
+                System.out.println(numberListArrayList.getElementoSuccessivo());
+            }
         }
     }
 }
