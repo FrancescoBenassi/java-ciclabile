@@ -21,10 +21,10 @@ public class Test {
         System.out.println(numberListArrayList.hasAncoraElementi());
         System.out.println(numberListArrayList.getElementoSuccessivo());
         System.out.println(numberListArrayList.hasAncoraElementi());
-        numberListArrayList.setAddElemento(30);
+        numberListArrayList.addElemento(30);
         System.out.println(numberListArrayList.getElementoSuccessivo());
         System.out.println(numberListArrayList.hasAncoraElementi());
-        numberListArrayList.setAddElemento(17);
+        numberListArrayList.addElemento(17);
         System.out.println(numberListArrayList.getElementoSuccessivo());
         System.out.println(numberListArrayList.hasAncoraElementi());
         numberListArrayList.writeAndGetTuttiElementi();

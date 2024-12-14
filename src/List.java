@@ -70,7 +70,7 @@ public class List {
 
     // Metodo per aggiungere un valore all'interno dell'Array
 
-    public void setAddElemento(int number) {
+    public void addElemento(int number) {
         int[] newArray = new int[this.numberList.length + 1];
         int numberListLength = this.numberList.length;
         for (int i = 0; i < numberListLength; i++) {
