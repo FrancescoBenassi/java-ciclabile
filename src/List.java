@@ -17,7 +17,7 @@ public class List {
 
     // Metodo per leggere tutti i valori all'interno dell'Array numberList
 
-    public int[] getTuttiElementi(){
+    public int[] writeAndGetTuttiElementi(){
         for (int i = 0; i < this.numberList.length; i++) {
             System.out.println(this.numberList[i]);
         }

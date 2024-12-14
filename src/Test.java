@@ -27,7 +27,7 @@ public class Test {
         numberListArrayList.setAddElemento(17);
         System.out.println(numberListArrayList.getElementoSuccessivo());
         System.out.println(numberListArrayList.hasAncoraElementi());
-        numberListArrayList.getTuttiElementi();
+        numberListArrayList.writeAndGetTuttiElementi();
 
         // Ciclo per leggere tutti i valori all'interno dell'Array numberListArrayList
 
